@@ -1,4 +1,6 @@
+require "./shopping_app/ownable"
 class Item
+  include Ownable
   attr_reader :name, :price
 
   @@instances = []
