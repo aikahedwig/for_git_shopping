@@ -1,4 +1,4 @@
-require "./shopping_app/ownable"
+require_relative "ownable"
 class Item
   include Ownable
   attr_reader :name, :price

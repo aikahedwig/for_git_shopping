@@ -1,5 +1,5 @@
 require_relative "item_manager"
-require "./shopping_app/ownable"
+require_relative "ownable"
 
 class Cart
   include ItemManager
